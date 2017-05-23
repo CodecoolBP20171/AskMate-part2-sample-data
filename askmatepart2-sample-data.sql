@@ -46,7 +46,8 @@ CREATE TABLE comment (
     question_id integer,
     answer_id integer,
     message text,
-    submission_time timestamp without time zone
+    submission_time timestamp without time zone,
+    edited_count integer
 );
 
 
